@@ -1,0 +1,43 @@
+
+
+$primary: rgb(0, 113, 0);
+$secondary:rgb(4, 39, 153);
+$higher: #ddd;
+
+
+
+
+@mixin Buttons {
+    background-color: $primary;
+    border: 2px solid $secondary;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    color: white;
+}
+
+@mixin  h3TAg {
+    font-weight: 600;
+}
+
+@mixin CardItem {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: white;
+}
+
+@mixin CardItemBody {
+    text-align: center;
+
+}
+
+
+
+
+
+
